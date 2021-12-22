@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Urbanist";
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App {
+  background-color:linen;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons,
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 0 10px;
+  width: 50px;
+  border-radius: 10%;
+  height: 30px;
+  background-color: antiquewhite;
+  font-size: large;
+  cursor: pointer;
+}
+
+.vaccinated {
+  color: #00b300;
+}
+.pending {
+  color: #ff6666;
+}
+
+.stats-info-wrapper {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:cornsilk;
+  border-radius: 2%;
+  border: 1px solid rgb(233, 204, 91);
+  color: darkblue;
+}
+
+.stats-info {
+  font-size: medium;
+  background-color: cornsilk;
+}
+
+.date-info-wrapper {
+  height: 50px;
+  width: 200px;
+  padding: 0px 5px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:cornsilk;
+  border-radius: 2%;
+  border: 1px solid rgb(233, 204, 91);
+  color: darkblue;
+  box-shadow: 10px 10px 11px -11px rgba(0,0,0,0.68);
+  -webkit-box-shadow: 10px 10px 11px -11px rgba(0,0,0,0.68);
+  -moz-box-shadow: 10px 10px 11px -11px rgba(0,0,0,0.68);
+}
+
+.date-info {
+  font-size: medium;
+  font-weight: 500;
+  background-color: cornsilk;
+}
+
+.table-paper {
+  margin-bottom: 40px;
+}
+
+.table-content {
+  padding: 20px;
+}
+
+.MuiTableCell-root {
+  font-family: "Urbanist" !important;
+  font-weight: 600 !important;
+}
+
+/* 
+@media only screen and (min-width: 600px) {
+  For responsive design, we can add css here.
+    - max-width: 600px -> phones
+    - min-width: 600px -> tablets
+    - min-width: 768px -> landscape tablets
+    - min-width: 992px -> desktops/laptops
+    - min-width: 1200px -> large laptops and desktops
+} 
+*/
